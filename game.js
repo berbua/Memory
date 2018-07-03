@@ -50,7 +50,7 @@ const clickCard = function() {
       activeCards[1] = activeCard;
       /*delay to show both cards */
       setTimeout(function() {
-        //if second click - check if win or loose. if fin check if game over
+        //if second click - check if win or loose. if win check if game over
         if (activeCards[0].className === activeCards[1].className) {
           console.log("round won");
           activeCards.forEach(card => card.classList.add("off"));
