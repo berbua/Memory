@@ -64,7 +64,7 @@ const clickCard = function() {
           if (gameResult == gamePairs) {
             const endTime = new Date().getTime();
             const gameTime = (endTime - startTime) / 1000;
-            alert(`You won! Your score: ${gameTime} seconds`);
+            alert(`Props! Your score: ${gameTime} seconds`);
             location.reload();
           }
         } else {
